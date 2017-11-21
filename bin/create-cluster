@@ -1,0 +1,4 @@
+gcloud container clusters create ato \
+  --cluster-version 1.7.8 \
+  --num-nodes 10 \
+  --machine-type n1-standard-2
